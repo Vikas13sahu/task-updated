@@ -1,0 +1,116 @@
+@media (max-width: 992px) {
+  .navbar-expand-lg .navbar-nav {
+      flex-direction: column;
+  }
+
+  .navbar-toggler {
+      display: block;
+  }
+
+  .collapse {
+      display: none;
+  }
+
+  .collapse.show {
+      display: block;
+  }
+}
+
+@media (min-width: 450px) {
+  .navbar-toggler {
+      display: none;
+  }
+
+  .collapse {
+      display: flex;
+  }
+}
+.d14m1 {
+    flex: 1 1 95%;
+    justify-content: center;
+}
+
+.d14m2 {
+    flex: 1 1 95%;
+    margin: 0 auto;
+}
+.dsub14m1 h3 {
+    font-size: 18px;
+}
+
+.d14p {
+    font-size: 14px;
+}
+@media screen and (max-width:576px) {
+    .Ourservices{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 1050px;
+        border-radius: 20px;
+        overflow: hidden;
+      }
+      .os-row0cols{
+        height: 380px;
+        flex-basis: 50%;
+        margin: 10px;
+        border-radius: 10px 0px 0px 10px;
+        overflow: hidden;
+      }
+      .os-row0cols img{
+        width: 50%;
+        height: 50%;
+      }
+      .order0{
+        order: 1;
+      }
+      .order1{
+        order: 2;
+      }
+      .teamdiv{
+        display: flex;
+        justify-content: center;
+        align-items:center ;
+        flex-direction: column;
+        padding: 0px 60px;
+      
+      }
+      .spacial{
+         display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 60px;
+        flex-direction: column;
+      }
+      .main-footer{
+        height: auto;
+        flex-direction: column;
+      }
+      .footer{
+        border: 5px red solid;
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+        /* padding: 80px; */
+        height:auto;
+        display: flex;
+        background-color: #2a3855;
+        flex-direction: column;
+     
+      }
+      .sectionos{
+        display: none;
+      }
+      .adjs{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        
+      }
+      .adjs2{
+        height: auto;
+      }
+      }
+      
+    
